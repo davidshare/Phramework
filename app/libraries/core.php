@@ -12,7 +12,7 @@
 
 		public function __construct(){
 			// print_r($this->getUrl());
-			$url = $his->getUrl();
+			$url = $this->getUrl();
 
 			//look in controllers for first value
 			if(file_exists('../app/controllers/'.ucwords($url[0]).'.php')){
