@@ -5,7 +5,8 @@
 		}
 
 		public function index(){
-			$this->view('pages/index');
+			$data = ['title'=>'Homepage'];
+			$this->view('pages/index', $data);
 		}
 
 		public function about(){
