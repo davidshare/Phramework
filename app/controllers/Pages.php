@@ -5,7 +5,7 @@
 		}
 
 		public function index(){
-			
+			$this->view('index');
 		}
 
 		public function about(){
