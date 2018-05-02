@@ -4,16 +4,10 @@
 	* Loads the Models and views
 	*/
 	class Controller{
-		
-		function __construct()
-		{
-			# code...
-		}
-
 		//Load Model
 		public function model($model){
 			//Require model file
-			require_once('../app/models'.$model.'.php');
+			require_once('../app/models/'.$model.'.php');
 
 			//instantiate model
 			return new $model();
