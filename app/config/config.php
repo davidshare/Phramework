@@ -3,7 +3,7 @@
 	define('APPROOT', dirname(dirname(__FILE__)));
 
 	//URL Root
-	define('URLROOT', 'http://localhost/phramework/');
+	define('URLROOT', 'http://localhost/phramework');
 
 	//site name
 	define('SITENAME', 'PHRAMEWORK');
