@@ -8,7 +8,7 @@
 	define('APPROOT', dirname(dirname(__FILE__)));
 
 	//URL Root
-	define('URLROOT', 'http://localhost/phramework');
+	define('URLROOT', '_ROOT_URL_');
 
 	//site name
 	define('SITENAME', 'PHRAMEWORK');
