@@ -1,12 +1,12 @@
 <?php
 	class Pages extends Controller{
 		public function __construct(){
-			
+
 		}
 
 		public function index(){
 			$data = [
-				'title'=>'Homepage'
+				'title'=>'PHRAMEWORK'
 			];
 			$this->view('pages/index', $data);
 		}
